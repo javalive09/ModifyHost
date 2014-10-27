@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:gravity="right|center_vertical"
+            android:padding="3dip"
+            android:text="ip:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ip"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="XXX" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="name:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="XXX" />
+    </TableRow>
+
+</TableLayout>
